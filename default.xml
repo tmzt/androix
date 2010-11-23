@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="git://anongit.freedesktop.org/xorg/xserver"/>
+	<remote name="github" fetch="git://github.com/tmzt" />
+	<default remote="origin" revision="master" />
+	<default remote="github" revision="androix-1" />
+	<project path="androix-xserver" remote="github" /> 
+	<project path="androix-xcb-libxcb" remote="github" />
+	<project path="androix-lib-libX11" remote="github" />
+	<project path="androix-lib-libXfont" remote="github" />
+	<project path="androix-app-xkbcomp" remote="github" />
+	<project path="androix-lib-libxtrans" remote="github" />
+	<project path="androix-proto-x11proto" remote="gibhub" />
+</manifest>
+	

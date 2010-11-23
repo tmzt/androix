@@ -1,0 +1,28 @@
+AndroiX - the X server for Android
+==================================
+
+Build instructions
+------------------
+
+AndroiX uses a modified version of util/modular from git.freedesktop.org, you can retreive the AndroiX version using the following commands:
+
+	mkdir androix
+	cd androix
+	git clone git://github.com/tmzt/androix-util-modular
+	cd androix-util-modular
+	./build.sh -l	# build libraries only
+	(...)
+
+Getting source to modify
+------------------------
+
+Get the repo tool following the instructions at http://source.android.com/source/git-repo.html
+
+Now, retreive the AndroiX server source with the following command
+
+	mkdir androix
+	cd androix
+	repo init -u git://github.com/tmzt/androix
+	repo sync	
+
+
